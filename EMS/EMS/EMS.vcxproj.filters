@@ -13,24 +13,132 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{ce6c2883-9c9d-4229-bfd6-13a5299cba27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{2992206d-f649-4f34-9f4e-99298d805098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{0a2308ac-da3b-4eb3-b5e5-0ffefa96d76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameObjects">
+      <UniqueIdentifier>{45dfe26f-73d9-4557-8d0b-aaf789cc0fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameObjects\Arkanoid">
+      <UniqueIdentifier>{d53d120b-5def-43ba-bfd8-96105598f123}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CircleCopllider.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
     <ClInclude Include="EMS.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="LineScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon.h">
+      <Filter>Objects\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Objects\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrel.h">
+      <Filter>Objects\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Objects\GameObjects\Arkanoid</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Objects\GameObjects\Arkanoid</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EMS.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCopllider.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LineScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon.cpp">
+      <Filter>Objects\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Objects\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrel.cpp">
+      <Filter>Objects\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Objects\GameObjects\Arkanoid</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Objects\GameObjects\Arkanoid</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

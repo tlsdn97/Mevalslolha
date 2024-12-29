@@ -127,13 +127,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Barrel.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Cannon.h" />
+    <ClInclude Include="CircleCopllider.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="ColliderScene.h" />
     <ClInclude Include="EMS.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="LineScene.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="PaintScene.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="RectCollider.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Barrel.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Cannon.cpp" />
+    <ClCompile Include="CircleCopllider.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="ColliderScene.cpp" />
     <ClCompile Include="EMS.cpp" />
+    <ClCompile Include="framework.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LineScene.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="PaintScene.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="RectCollider.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="EMS.rc" />
